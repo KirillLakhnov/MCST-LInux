@@ -148,6 +148,8 @@ int is_option(char symbol)
 
 int is_elbrus_option(char* string)
 {
+    assert(string);
+
     if(strncmp(string, "elbrus=", 7) == 0)
     {
         if(strncmp(ELBRUS_OPTION[0], string + 7, 3) == 0) return 1;
