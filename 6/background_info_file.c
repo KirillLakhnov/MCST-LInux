@@ -58,6 +58,8 @@ void get_type_file(struct stat info_file)
 
 void long_in_time(struct stat info_file, char* string_time)
 {
+    assert(string_time);
+    
     const time_t time_t = time(&info_file.st_atime);
     struct tm* time_tm = localtime(&time_t);
     strftime(string_time, MAX_LEN_STRING_TIME, "%d.%m.%Y %H:%M:%S", time_tm);
