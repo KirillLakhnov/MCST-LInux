@@ -19,7 +19,6 @@ int main()
     }
 
     signal(SIGINT, sign_handl);
-
     mul_matrix(first_matrix, second_matrix, result_matrix);
 
     for (int i = 0; i < MATRIX_SIZE; i++) 
