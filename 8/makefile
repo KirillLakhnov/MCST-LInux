@@ -1,2 +1,2 @@
-all: main.c matrix.cpp
-	gcc main.c matrix.cpp
+all: main.c matrix.c
+	gcc main.c matrix.c
