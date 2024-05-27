@@ -1,5 +1,4 @@
 #include "mergesort.h"
-#include "mergesort.h"
 
 int main() {
     printf("Результат выполнения тестов сортировки слиянием:\n");
