@@ -1,0 +1,11 @@
+I am a file written to test this small program that checks how I work with the fork() function, which hits a new process (child).
+
+Some more meaningless text (a set of characters):
+    fdtsgahjsfxew
+    cfygshudjkxchnekdsjchefds
+    vefsdycgxuhjkl 
+    efdgsxhc fev dgsjhdxh32328e 
+    354w384e893rwq3rdbx2x3748x32
+    3x4933430x2
+
+THE END.
