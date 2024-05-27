@@ -77,7 +77,7 @@ void* mergesort(void *params)
 
 void test_mergesort()
 {
-    // Test 1
+// Test 1
     int arr[] = {39, 43, 25, 1, 7, 12, 87};
     int size = sizeof(arr)/sizeof(arr[0]);
 
@@ -102,7 +102,7 @@ void test_mergesort()
     }
     printf("\n");
 
-    // Test 2
+// Test 2
     int arr1[] = {3, 7, 43, 23, 56, 12, 127, 120, 5, 99};
     int size1 = sizeof(arr1)/sizeof(arr1[0]);
 
